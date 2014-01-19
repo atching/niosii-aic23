@@ -377,14 +377,3 @@ void AIC23_on(){
 void AIC23_off(){
 	spi_send(0x06, 0x80);
 }
-
-
-
-
-
-
-
-
-
-
-

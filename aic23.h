@@ -5,7 +5,7 @@
  *      Author: atching
  *
  *  Header for the control of the AIC23 audio codec on the Altera AD/DA Daughter
- *  Card.
+ *  Card. Include in projects using daughtercard.
  *
  *  Certain code and settings taken/adapted from TI DSK6713 source libraries.
  */
@@ -96,4 +96,3 @@ void AIC23_clk_mode(unsigned int mode);
 
 void AIC23_on();
 void AIC23_off();
-
